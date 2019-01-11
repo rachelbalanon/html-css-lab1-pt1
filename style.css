@@ -3,8 +3,19 @@ html {
     background-color: #f9fafc;
 }
 
+body {
+    margin-top: 40px;
+}
+
 header {
     position: relative;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    margin: 0;
 }
 
 nav {
@@ -60,7 +71,30 @@ p {
     float: right;
     height: 500px;
     width: 500px;
+
 }
+
+/* Alternate positioning. Use pixels to set top, right, left for circles. All circle position: relative  */
+
+/* .columns {
+    width: 100%;
+}
+
+.textbox {
+    float: left;
+    width: 48%;
+    height: 800px;
+}
+
+.image {
+    float: right;
+    width: 48%;
+    height: 800px;
+}
+
+.clear-fix {
+    clear: both;
+} */
 
 .pink {
     height: 380px;
